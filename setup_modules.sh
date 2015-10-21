@@ -80,6 +80,7 @@ if test "$dev" -eq "1"; then
   moduleFile=$(mainmodule)/.gitmodules
   sed -i.bak "s_\(\S*url = \)https://github.com/\(.*\)_\1git@github.com:\2_" $moduleFile
   git submodule sync
+  git update-index --assume-unchanged $moduleFile
 fi
 
 if test "$head" -eq "0"; then
