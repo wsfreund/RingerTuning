@@ -1,9 +1,9 @@
 [submodule "TuningTools"]
 	path = TuningTools
-	url = https://github.com/wsfreund/TuningTools.git
+	url = git@github.com:wsfreund/TuningTools.git
 [submodule "RingerCore"]
 	path = RingerCore
-	url = https://github.com/wsfreund/RingerCore.git
+	url = git@github.com:wsfreund/RingerCore.git
 [submodule "RootCoreMacros"]
 	path = RootCoreMacros
-	url = https://github.com/wsfreund/RootCoreMacros.git
+	url = git@github.com:wsfreund/RootCoreMacros.git
