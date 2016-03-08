@@ -3,7 +3,7 @@
 
 This framework release contains packages needed to tune the Ringer algorithm.
 
-Other available release of the framework is:
+Other available releases:
 
 - [RingerProject](https://github.com/wsfreund/RingerProject): The full framework, containing all available packages for tuning and analysing the algorithm.
 
@@ -26,13 +26,13 @@ git clone https://github.com/wsfreund/RingerTuning.git
 cd RingerTuning
 ```
 
-Download source content (read [RootCoreMacros `setup_modules.sh` documentation](https://github.com/wsfreund/RootCoreMacros#setup_modulessh) for more details):
+Download source content (read RootCoreMacros `setup_modules.sh` [documentation](https://github.com/wsfreund/RootCoreMacros#setup_modulessh) for more details):
 
 ```
 ./setup_modules.sh
 ```
 
-And, finally, compile RootCore packages on this release (cf. [RootCoreMacros `buildthis.sh` documentation](https://github.com/wsfreund/RootCoreMacros#buildthissh) for more information):
+And, finally, compile RootCore packages on this release (cf. RootCoreMacros `buildthis.sh` [documentation](https://github.com/wsfreund/RootCoreMacros#buildthissh) for more information):
 
 ```
 source buildthis.sh
@@ -41,7 +41,7 @@ source buildthis.sh
 
 # Usage
 
-In each session that you want to have access to the framework functionalities, it is needed to run the following command (read [RootCoreMacros `setrootcore.sh` documentation](https://github.com/wsfreund/RootCoreMacros#setrootcoresh) for more details):  
+In each session that you want to have access to the framework functionalities, it is needed to run the following command (read RootCoreMacros `setrootcore.sh` [documentation](https://github.com/wsfreund/RootCoreMacros#setrootcoresh) for more details):  
 
 ```
 source setrootcore.sh
@@ -75,5 +75,4 @@ The following packages are available in this release:
 - [`RingerCore`](https://github.com/wsfreund/RingerCore) (RingerCore package): Package containing base functionalities for the framework;
 - [`RootCoreMacros`](https://github.com/wsfreund/RootCoreMacros) (RootCoreMacros package): Provides RootCore unofficial scripts for improving user interaction with the framework;
 - [`TuningTools`](https://github.com/wsfreund/TuningTools) (TuningTools package): All sort of tools for tuning the algorithm;
-
 
